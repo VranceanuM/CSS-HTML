@@ -1,0 +1,24 @@
+#services-display{
+    background: url('https://static.pexels.com/photos/33609/delicate-arch-sunset-rock-formation.jpg');
+    background-attachment: fixed;
+    border-bottom: 2px #333 solid;
+    margin-top:50px;
+    height: 300px;
+    background-position: 0 -200px;
+}
+#services{
+    position: relative;
+    top:-150px;
+}
+#faq{
+    .card{
+        border: #444;
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    .card-body, .card-header{
+        background: #333;
+    }
+}
