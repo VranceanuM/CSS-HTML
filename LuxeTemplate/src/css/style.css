@@ -1,0 +1,61 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 4px 4px 5px #126872;
+  opacity: 0,9;
+  background: #fff; }
+  .navbar .navbar-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+  .navbar .navbar-brand {
+    color: #18C29C !important; }
+  .navbar .nav-link:hover {
+    color: #18C29C !important; }
+
+#showcase {
+  position: relative;
+  background: url("../img/case.jpeg");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+.btn {
+  background: #18C29C !important;
+  color: black; }
+
+.card {
+  border: 1px solid #18C29C; }
+  .card .text-cristal {
+    color: #18C29C; }
+
+.card1 {
+  background: #18C29C; }
+
+.card3 {
+  background: #18C29C; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .fa {
+  font-size: 25px;
+  color: #126872; }
+  #authors .fa:hover {
+    color: #18C29C; }
+
+#authors .card:hover {
+  background: #126872;
+  color: white; }
+  #authors .card:hover .fa {
+    color: white; }

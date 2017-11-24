@@ -1,0 +1,77 @@
+// Main Sass File
+@import "variables";
+
+body{
+    margin-top:105px;
+}
+.navbar{
+    box-shadow: 4px 4px 5px $primary;
+     opacity:0,9;
+     background: #fff;
+     .navbar-item{
+        font-size: 1.4rem;
+        padding-right:20px;
+        
+    }
+    .navbar-brand{
+        color: $cristal!important;
+    }
+    .nav-link {
+        &:hover{
+            color:$cristal!important;  
+           } 
+    }
+}
+#showcase{
+    position: relative;
+    background: url('../img/case.jpeg');
+    min-height:600px;
+    .primary-overlay{
+        background: $primary-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+}
+.btn{
+    background: $cristal !important;
+    color:black;
+}
+.card{
+    border: 1px solid $cristal;
+    .text-cristal{
+        color:$cristal;
+    }
+}
+.card1{
+    background: $cristal;
+}
+.card3{
+    background: $cristal;
+}
+.info-header{
+    width:50%;
+    margin:auto;
+    border-bottom: 1px #ddd solid;
+}
+#authors{
+    img{
+        margin-top:-50px;
+    }
+    .fa{
+        font-size: 25px;
+        color: $primary;
+        &:hover{
+            color:$cristal;
+    }
+    }
+    .card:hover{
+        background: $primary;
+        color: white;
+        .fa{
+            color: white;
+        }
+    }
+}
