@@ -1,0 +1,91 @@
+body {
+  overflow-x: hidden; }
+
+#showcase {
+  background: url(https://static.pexels.com/photos/238118/pexels-photo-238118.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh; }
+
+.blockquote {
+  margin-top: 150px;
+  color: #8f8989; }
+
+#side-bar {
+  width: 350px;
+  background: black;
+  height: 100vh;
+  position: fixed;
+  color: white; }
+  #side-bar .img {
+    width: 185px;
+    margin-top: 50px; }
+  #side-bar .social-media .fa {
+    font-size: 1.5rem;
+    padding: 5px;
+    transition: all 0.2s ease-in-out; }
+  #side-bar .social-media .fa:hover {
+    cursor: pointer;
+    color: #6d2377;
+    font-size: 2rem; }
+
+.navigation {
+  display: flex;
+  padding-right: 35px;
+  text-align: center;
+  margin-top: 50px; }
+  .navigation ul {
+    list-style: none; }
+  .navigation a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 15px 20px;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out; }
+
+a:hover {
+  color: #6d2377;
+  cursor: pointer; }
+
+#about {
+  margin-left: 350px;
+  min-height: 100vh; }
+
+.info {
+  margin-top: 200px; }
+
+.info-p {
+  margin-top: 50px; }
+
+.img-wrap {
+  margin-top: 200px;
+  margin-bottom: 100px; }
+
+#services {
+  background: #f2f2f2;
+  margin-left: 350px;
+  min-height: 100vh;
+  padding-top: 150px; }
+
+.card {
+  height: 350px; }
+
+#portofolio {
+  background: #333333;
+  margin-left: 350px;
+  min-height: 100vh;
+  padding-top: 150px; }
+
+.card1 {
+  width: 200px;
+  height: 200px; }
+  .card1 img {
+    border-radius: 10%;
+    height: 120px; }
+
+.card1:hover {
+  cursor: pointer; }
